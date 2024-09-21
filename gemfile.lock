@@ -1,0 +1,22 @@
+GEM
+  specs:
+    language_server-protocol (3.17.0.3)
+    logger (1.6.1)
+    prism (1.0.0)
+    rbs (3.5.3)
+      logger
+    ruby-lsp (0.18.1)
+      language_server-protocol (~> 3.17.0)
+      prism (~> 1.0)
+      rbs (>= 3, < 4)
+      sorbet-runtime (>= 0.5.10782)
+    sorbet-runtime (0.5.11558)
+
+PLATFORMS
+  x64-mingw-ucrt
+
+DEPENDENCIES
+  ruby-lsp
+
+BUNDLED WITH
+   2.5.14
